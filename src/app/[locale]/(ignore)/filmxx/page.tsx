@@ -124,6 +124,8 @@ function page() {
     };
   }, []);
 
+  const audioRef: any = useRef(null);
+
   return (
     <>
       {/* <motion.div
@@ -134,12 +136,43 @@ function page() {
         transition={{ duration: 0.5 }}
       > */}
 
-      <div className=" h-[100vh] grid items-center justify-center ">
-        <div className="  bg-[#FDC4C2] dark:bg-[#FDC4C2] text-gray-500 dark:text-gray-500 grid items-between justify-center max-w-[375px] max-h-[667px] rounded-lg shadow-lg">
+      <div className=" h-[100vh] grid items-center justify-center relative ">
+      
+        <div className="area">
+          <ul className="hearts">
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            <li><div className="heart"></div></li>
+            {/* <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li> */}
+          </ul>
+        </div>
+
+        <div className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#FDC4C2c0] dark:bg-[#FDC4C2c0] text-gray-500 dark:text-gray-500  w-[360px] h-[567px] rounded-lg shadow-lg">
           {/* @ts-ignore */}
           <audio
-            id="player"
-            autoPlay
+            ref={audioRef}
+            id="backgroundMusic"
+            autoPlay={true}
             loop
             controls
             className=" w-full mt-5 px-2"
@@ -149,7 +182,13 @@ function page() {
               type="audio/mp3"
             />
           </audio>
-          <div className="mt-6 text-center mx-[30%] text-white dark:text-white">
+
+          {/* {!isUserInteracted && (
+              <button onClick={handleButtonClick} className="play-button">
+                Play Background Music
+              </button>
+            )} */}
+          <div className=" mt-3 text-center mx-[30%] text-white dark:text-white font-bold tracking-widest">
             {/* @ts-ignore */}
             <marquee>{`เทียบไม่ได้กับเธอ`}</marquee>
           </div>

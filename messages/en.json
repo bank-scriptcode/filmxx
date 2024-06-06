@@ -1,0 +1,80 @@
+{
+  "Title": {
+    "label": "Hello"
+  },
+  "Home": {
+    "NameAvati": "Avati",
+    "StoryAvatiTitle":"Story",
+    "StoryAvati1":"A traveler is packing their backpack in a room. They're preparing for an adventurous journey. The camera focuses on the new security device, showcasing its sleek design and Hanuman-inspired look.",
+    "StoryAvati2":"At night, a shadow approaches the tent. The device detects the movement and its light blinks.",
+    "StoryAvati3":"The traveler, now away from the tent, receives an instant notification on their smartphone through social media. Their expression changes from relaxed to alert.",
+    "StoryAvati4":"The traveler rushes back to the tent. On the way, they use their smartphone to alert campsite security.",
+    "StoryAvati5":"A serene panoramic view of the campsite with the product logo and a tagline: 'Your Journey, Our Protection - Adventure with Peace of Mind'.",
+    "MaterialTitle":"Material",
+    "Material1":"Avati designs utilize 3D printing with resin as the primary material, The surface of the head use resin 4k, while the bottom and inside housing use of PLA (Polylactic Acid) plastic, PLA is a biodegradable thermoplastic derived from renewable resources such as corn starch or sugarcane.  It is known for its ease of use, low odor, and environmentally friendly characteristics. We have made the decision to upcycle some components for our project. Such as wires, port. Upcycling involves repurposing or transforming existing materials or objects to give them a new life and purpose. This sustainable approach aligns with our commitment to reduce waste and make environmentally conscious choices in our project development.",
+    "FeatureTitle":"Feature",
+    "FeatureDetail":"The goal of this project was to explore and push my texturing capabilities by envisioning these rough and handcrafted objects made out of scrappy, readily available materials.",
+    "ContactUs":"Contact us",
+    "ContactUsDetail":"Get exclusive promotions & updates straight to your inbox.",
+    "ContactSubscribe":"Subscribe",
+    "Hang":"Hang",
+    "Sling":"Sling"
+  },
+  "SignIn":{
+    "SignIn":"Sign In",
+    "E-MailAddress":"E-Mail Address",
+    "Account":"You don't have an account"
+  },
+  "SignUp":{
+    "REGISTER":"REGISTER",
+    "FirstName":"First Name",
+    "LastName":"Last Name",
+    "Email":"Email",
+    "PhoneNumber":"Phone Number",
+    "Back":"Back",
+    "CreateID":"Create ID",
+    "Save":"Save",
+    "MyProfile":"My Profile"
+  },
+  "SignOtp":{
+    "EMAILVERIFICATION":"EMAIL VERIFICATION",
+    "WeAre":"We have sent a code to your email",
+    "Back":"Back",
+    "RecieveCode":"Didn't recieve code",
+    "Resend":"Resend"
+  },
+  "MainHead":{
+    "Logout":"Logout"
+  },
+  "MainSide":{
+    "Main":"Main",
+    "Device":"My Device",
+    "Settings":"Settings",
+    "Profile":"Profile",
+    "Subscription":"Subscription",
+    "Overview":"Overview",
+    "Dashboard":"Dashboard"
+  },
+  "Device":{
+    "DeviceSetting":"Device Setting",
+    "AddDevice":"Add Device",
+    "Connected":"Notification",
+    "Disconnected":"Notification",
+    "ON":"ON",
+    "OFF":"OFF",
+    "AddNewDevice":"Add new Device",
+    "SerialNumber":"Serial number",
+    "Submit":"Submit",
+    "Cancel":"Cancel",
+    "Back":"Back",
+    "AddSMS":"Add",
+    "AddEmail":"Add",
+    "AddWhatsApp":"Add",
+    "Default":"Default",
+    "High":"High",
+    "Low":"Low",
+    "AddNew":"Add new",
+    "NotiSetting":"Notification Setting"
+  }
+}
+
